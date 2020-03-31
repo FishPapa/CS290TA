@@ -1,0 +1,9 @@
+1. The address where access Node on Engineering Servers:
+
+http://flip3.engr.oregonstate.edu:38357/
+
+
+2. A link to my GitHub repository:
+
+https://github.com/FishPapa/CS290TA
+
