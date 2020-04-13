@@ -1,0 +1,75 @@
+#header{
+  text-align: center;
+}
+
+/*---- CSS for STEP 1 ----*/
+table{
+    border-style:solid;
+}
+th, td{
+    border: 1px solid grey;
+}
+
+
+/*---- CSS for STEP 3 ----*/
+.outer-content {
+  background-color: #f5c4d7;
+  width: 75%;
+  height: 46px;
+  margin-top: 20px;
+}
+
+.inner-content {
+  position: relative;
+  background: #82c8fa;
+  width: 75%;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+/*---- CSS for STEP 4 ----*/
+#getsubmit {
+  color: black;
+  text-decoration: none;
+  width: 100px;
+  background: #f7fafc;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  border: 1px solid grey;
+}
+
+#postsubmit {
+  color: black;
+  text-decoration: none;
+  width: 100px;
+  background: #f7fafc;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  border: 1px solid grey;
+}
+
+tr:nth-of-type(even) {
+  background: #92f092;
+}
+tr:nth-of-type(odd) {
+  background: #968eed;
+}
+tr:nth-of-type(1) {
+  background: white;
+}
+tr:nth-of-type(7) {
+  background: white;
+}
+
+td:nth-of-type(2) {
+  color: #f06767;
+}
+
+td:nth-of-type(4) {
+  color: #248ce0;
+}

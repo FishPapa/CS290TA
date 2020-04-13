@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Assignment 2</title>
+  </head>
+  <body>
+    <h1 id = "header">Assignment 2</h1>
+    <!--------- STEP 1 ---------->
+    <table id = "Step1">
+      <caption>Who wins? Cell content indicates the status of the row entry</caption>
+
+        <tr id = "firstrow">
+            <th></th>
+            <th>Godzilla</th>
+            <th>Batman</th>
+            <th>Shaq</th>
+            <th>Aaron Carter</th>
+            <th>Abe Lincoln</th>
+        </tr>
+
+
+        <tr id = "secondrow">
+            <td><em>Godzialla</em></td>
+            <td>N/A</td>
+            <td>Minor Loss</td>
+            <td>Loss</td>
+            <td>Unknown</td>
+            <td>Unknown</td>
+        </tr>
+
+        <tr id = "thirdrow">
+            <td><em>Batman</em></td>
+            <td>Minor Loss</td>
+            <td>N/A</td>
+            <td>Total Victory</td>
+            <td>Total Victory</td>
+            <td>TOtal Loss</td>
+        </tr>
+
+        <tr id = "fourthrow">
+            <td><em>Shaq</em></td>
+            <td>Win</td>
+            <td>Total loss</td>
+            <td>N/A</td>
+            <td>Minor Loss</td>
+            <td>Unknown</td>
+        </tr>
+
+        <tr id = "fifthrow">
+            <td><em>Aaron Carter</em></td>
+            <td>Unkown</td>
+            <td>TotalLoss</td>
+            <td>Minor Win</td>
+            <td>N/A</td>
+            <td>Unknown</td>
+        </tr>
+
+        <tr id = "sixthrow">
+            <td><em>Abe Lincoln</em></td>
+            <td>Unkown</td>
+            <td>Total Victory</td>
+            <td>Unknown</td>
+            <td>Unknown</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tfoot>
+          <tr id = "sixthrow">
+            <td colspan="2">Footer 1</td>
+            <td colspan="4"><font color = "black">
+              Footer 2
+              </font></td>
+          </tr>
+        </tfoot>
+
+    </table>
+
+
+
+    <!--------- STEP 2 ---------->
+    <dl id = "Step2">
+      <dt>Best language</dt>
+      <dd>Python</dd>
+      <dt>Wackyist Language</dt>
+      <dd>Haskell</dd>
+      <dt>SEGFAULTiest language</dt>
+      <dd>C</dd>
+    </dl>
+
+
+
+    <!--------- STEP 3 ---------->
+    <div class = 'outer-content'>
+      <div class = 'inner-content'>Here is some content.</div>
+    </div>
+
+
+
+
+    <!--------- STEP 4 ---------->
+    <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="get">
+      <fieldset>
+        <legend>Some GET Data</legend>
+        <br/>
+        <fieldset>
+            <label>Text here:
+                <input type="text" name="text_input" size="30" maxlength="100">
+            </label>
+        </fieldset>
+        <br/>
+        <fieldset>
+            <label>Number here:
+                <input type="number" name="numerical_input" size="30" maxlength="100">
+            </label>
+        </fieldset>
+        <br/>
+        <fieldset>
+            <label>Password here:
+                <input type="password" name="password_input" size="30" maxlength="100">
+            </label>
+        </fieldset>
+        <br />
+
+        <fieldset>
+            <label>Select between:</label>
+            <br/>
+            <br/>
+
+            <input type="radio" id="Snickers" name="candy" value="Snickers">
+            <label for="Snickers">Snickers</label>
+            <br/>
+            <br/>
+
+            <input type="radio" id="Skittles" name="candy" value="Skittles">
+            <label for="Skittles">Skittles</label>
+            <br/>
+            <br/>
+
+            <input type="radio" id="Mentos" name="candy" value="Mentos">
+            <label for="Mentos">Mentos</label>
+            <br/>
+            <br/>
+
+            <input id = "getsubmit" type="submit" value="Submit" />
+            <br/>
+            <br/>
+        </fieldset>
+      </fieldset>
+    </form>
+
+    <br/>
+    <br/>
+
+    <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="post">
+      <fieldset>
+        <legend>Some POST Data</legend>
+        <br/>
+        <fieldset>
+            <label>Text here:
+                <input type="text" name="text_input" size="30" maxlength="100">
+            </label>
+        </fieldset>
+        <br/>
+        <fieldset>
+            <label>Number here:
+                <input type="number" name="numerical_input" size="30" maxlength="100">
+            </label>
+        </fieldset>
+        <br/>
+        <fieldset>
+            <label>Password here:
+                <input type="password" name="password_input" size="30" maxlength="100">
+            </label>
+        </fieldset>
+        <br />
+
+        <fieldset>
+            <label>Select between:</label>
+            <br/>
+            <br/>
+
+            <input type="radio" id="Snickers" name="candy" value="Snickers">
+            <label for="Snickers">Snickers</label>
+            <br/>
+            <br/>
+
+            <input type="radio" id="Skittles" name="candy" value="Skittles">
+            <label for="Skittles">Skittles</label>
+            <br/>
+            <br/>
+
+            <input type="radio" id="Mentos" name="candy" value="Mentos">
+            <label for="Mentos">Mentos</label>
+            <br/>
+            <br/>
+
+            <input id = "postsubmit" type="submit" value="Submit" />
+            <br/>
+            <br/>
+        </fieldset>
+      </fieldset>
+    </form>
+    <br/>
+    <br/>
+    <br/>
+  </body>
+</html>
